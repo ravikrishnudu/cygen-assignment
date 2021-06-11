@@ -1,22 +1,27 @@
-Cygen assignment
+# Cygen assignment
 
-Demo
-https://cygen-task.vercel.app/
+## Demo
 
-Tech Stack
-Client: ReactJs,Material-ui
+https://cygen-assignment.vercel.app/
 
-Run Locally
+## Tech Stack
+
+**Client:** ReactJs,Material-ui
+
+## Run Locally
+
 Clone the project
 
 ```
-git clone https://github.com/ravikrishnudu/cygen-task.git
+git clone https://github.com/ravikrishnudu/cygen-assignment.git
 ```
 
 Go to the project directory
 
 ```
-cd cygen-task
+cd cygen-assignment
+
+
 ```
 
 Install dependencies
@@ -28,5 +33,5 @@ yarn
 Start the server
 
 ```
- yarn start
+yarn start
 ```

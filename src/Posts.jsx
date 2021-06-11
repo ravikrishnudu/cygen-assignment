@@ -75,7 +75,6 @@ function Posts() {
       setUsers(res);
     });
   }, []);
-  // console.log(posts);
 
   const getUsersName = (id) => {
     if (id && users.length !== 0) {
@@ -107,7 +106,6 @@ function Posts() {
     } catch (error) {
       setSnackBarType("error");
       setShowSnackBar(true);
-      // console.log({ error });
     } finally {
       setOpen(false);
     }
@@ -115,7 +113,6 @@ function Posts() {
 
   const classes = useStyles();
   const searchStyles = useSearchStyle();
-  // console.log(posts);
 
   return (
     <div>
